@@ -31,7 +31,7 @@ O alvo foi o painel de login do *Damn Vulnerable Web Application* (DVWA). Após 
 *Credenciais de administrador web descobertas.*
 
 ### 4. Ataque em Cadeia: Enumeração SMB e Password Spraying
-Em vez de atacar um único usuário (o que causaria bloqueio de conta), simulamos um ataque furtivo em etapas.
+Em vez de atacar um único usuário (o que causaria bloqueio de conta), simulei um ataque furtivo em etapas.
 
 **Fase A: Enumeração via Sessão Nula**
 Utilizando o `enum4linux`, foi possível extrair a lista real de usuários do sistema sem necessidade de autenticação prévia.
